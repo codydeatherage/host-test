@@ -1,0 +1,23 @@
+{
+  "name": "winrates-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd host-test-front && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "Cody <cdeatherage14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "^12.18.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
